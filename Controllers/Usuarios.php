@@ -50,10 +50,7 @@ class Usuarios extends Controller
             }
         } else {
             $res = array('tipo' => 'warning', 'mensaje' => 'EL CORREO YA EXISTE');
-        }
-    }
+        } }
     echo json_encode($res, JSON_UNESCAPED_UNICODE);
-    die();
-}
-
+    die();}
 }

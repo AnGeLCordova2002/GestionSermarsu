@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', function(){
         row.addEventListener('click', function(e){
             let id_detalle = this.getAttribute('id');
             verDetalle(id_detalle);
-        })
+        });
     });
-})
+});
 
 function verDetalle(id_detalle) {
             const http = new XMLHttpRequest();
-            const url = base_url + 'compartidos/verDetalle/' + id_detalle;
+            const url = base_url + 'compartidos/verDetalle/' + id_detalle; // Conexion a la base de datos
             
             http.open("GET", url, true);
             http.send();

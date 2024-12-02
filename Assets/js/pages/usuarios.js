@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Configurar DataTable
     $('#tblUsuarios').DataTable({
         ajax: {
-            url: base_url + 'usuarios/listar',
+            url: base_url + 'usuarios/listar',  // Conexion a la base de datos
             dataSrc: '',
             error: function (xhr, status, error) {
                 console.error('Error al cargar datos:', error);

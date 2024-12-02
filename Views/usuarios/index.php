@@ -126,4 +126,4 @@
                 </div>
             </div>
         </div>
-<?php include_once 'Views/template/footer.php'; ?>      
+                <?php include_once 'Views/template/footer.php'; ?>      

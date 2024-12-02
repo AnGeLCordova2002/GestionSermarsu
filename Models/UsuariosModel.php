@@ -8,7 +8,9 @@ class UsuariosModel extends Query{
     public function getUsuarios()
 {
     $sql = "SELECT id, nombre, apellido, correo, telefono, direccion, rol, perfil, fecha FROM usuarios WHERE estado = 1";
+    echo "Hello";
     return $this->selectAll($sql);
+    
 }
 
 public function getVerificar($campo, $valor)
@@ -23,8 +25,7 @@ public function guardar($nombre, $apellido, $correo, $telefono, $direccion, $cla
     $datos = [$nombre, $apellido, $correo, $telefono, $direccion, $clave, $rol];
     return $this->insertar($sql, $datos);
 }
-
-
 }
 
 ?>
+

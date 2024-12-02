@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function (){
             console.log('Campos completos, enviando datos');
             const data = new FormData(frm);
             const http = new XMLHttpRequest();
-            const url = base_url + 'principal/validar';
+            const url = base_url + 'principal/validar'; // Conexion
 
             console.log('URL de solicitud:', url);
 

@@ -1,5 +1,4 @@
-// Here goes your custom javascript
-
+// Aquí va el javascript personalizado
 
 function alertaPerzonalizada(type, mensaje){
   Swal.fire({

@@ -8,12 +8,13 @@
     <meta name="description" content="Responsive Admin Dashboard Template">
     <meta name="keywords" content="admin,dashboard">
     <meta name="author" content="stacks">
-    <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    
-    <!-- Title -->
-    <title><?php echo $data['title']; ?></title>
 
-    <!-- Styles -->
+    
+    <!-- titulo -->
+    <title><?php $data = "hola";
+        echo $data['title']; ?></title>
+
+    <!-- Estilos -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
@@ -22,7 +23,7 @@
     <link href="<?php echo BASE_URL . 'Assets/plugins/pace/pace.css'; ?>" rel="stylesheet">
 
     
-    <!-- Theme Styles -->
+    <!-- Estilos de tema -->
     <link href="<?php echo BASE_URL . 'Assets/css/main.min.css'; ?>" rel="stylesheet">
     <link href="<?php echo BASE_URL . 'Assets/css/custom.css'; ?>" rel="stylesheet">
 

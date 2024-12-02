@@ -20,7 +20,7 @@ const btnSubir = document.querySelector('#btnSubir');
 // VER ARCHIVOS
 const btnVer = document.querySelector("#btnVer");
 
-//COMARTIR ARCHIVOS ENTRE USUARIOS
+//COMPARTIR ARCHIVOS ENTRE USUARIOS
 const compartir = document.querySelectorAll(".compartir");
 const modalUsuarios = document.querySelector("#modalUsuarios");
 const myModalUser = new bootstrap.Modal(modalUsuarios);
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
             data.append('id_carpeta', id_carpeta.value);
             data.append('file', e.target.files[0]);
             const http = new XMLHttpRequest();
-            const url = base_url + 'admin/subirarchivo';
+            const url = base_url + 'admin/subirarchivo';  // Conexion a la base de datos
             
 
             http.open("POST", url, true);
